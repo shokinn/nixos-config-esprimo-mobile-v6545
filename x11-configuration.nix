@@ -24,8 +24,12 @@
 
     # set and configure displayManager
     displayManager = {
-      sddm = {
+      slim = {
         enable = true;
+        theme = pkgs.fetchurl {
+          url = "https://github.com/shokinn/minimalistic-stratum0-theme-for-slim/archive/v1.1.tar.gz";
+          sha256 = "9d86370d96505827716bb666ba0f964fa40a0245db70af55c6a0bcce150822e2";
+        };
       };
     };
  
