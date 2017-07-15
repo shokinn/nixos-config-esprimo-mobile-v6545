@@ -35,7 +35,7 @@
  
     # Use enlightment as desktopManager 
     desktopManager = {
-      enlightenment.enable = true;
+      plasma5.enable = true;
       xterm.enable = false;
     };
   };
